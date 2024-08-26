@@ -23,8 +23,6 @@ export const globalSlice = createSlice({
   },
 });
 
+export const { setIsSidebarCollapsed, setIsDarkMode } = globalSlice.actions;
 
-export const {setIsDarkMode, setIsSidebarCollapsed} = globalSlice.actions
-
-
-export default globalSlice.reducer
+export default globalSlice.reducer;
